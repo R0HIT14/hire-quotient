@@ -15,21 +15,21 @@ const Comment = () => {
         label="They already love our products 😍"
         labelIcon={false}
       />
-      <Marquee pauseOnHover direction="right" speed={200}>
+      <Marquee pauseOnHover direction="right" speed={50}>
         <Box sx={styles.main}>
           {data.map((item) => (
             <CommentCard {...item} />
           ))}
         </Box>
       </Marquee>
-      <Marquee pauseOnHover direction="right">
+      <Marquee pauseOnHover direction="right" speed={40}>
         <Box sx={styles.main}>
           {data.map((item) => (
             <CommentCard {...item} />
           ))}
         </Box>
       </Marquee>
-      <Marquee pauseOnHover direction="right">
+      <Marquee pauseOnHover direction="right" speed={30}>
         <Box sx={styles.main}>
           {data.map((item) => (
             <CommentCard {...item} />
