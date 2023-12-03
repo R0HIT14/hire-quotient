@@ -5,7 +5,6 @@ const view: SxProps = {
   justifyContent: "space-between",
   alignItems: "center",
   gap: "5%",
-  // mt: "60px",
 };
 
 const FadeInRight = keyframes`
